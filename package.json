@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "dotenv": "^16.2.0",
+    "mongodb": "^5.6.0",
+    "openai": "^3.3.0",
+    "session": "^0.1.0",
+    "telegraf": "^4.12.2"
+  }
+}
