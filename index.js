@@ -4,8 +4,8 @@ const { Configuration, OpenAIApi} = require('openai');
 require('dotenv').config();
 
 const { help } = require('./module');
-const { ruJokes } = require('./jokes/ruJokes');
-const { ruRiddles, ruHandleUserAnswer } = require('./riddles/ruRiddles');
+const { ruJokes } = require('./jokes/jokes');
+const { ruRiddles, ruHandleUserAnswer } = require('./riddles/riddles');
 const { processUserInput } = require('./chatGPT/textGPT')
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
